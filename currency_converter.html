@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Currency</title>
+    <link rel="stylesheet" href="currecy_converter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="header">Currency converter</h2>
+
+        <p class="inputText">Enter amount</p>
+        <input type="number" value=1000 class="inputff">
+
+        <div class="flags">
+            <div class="from">
+                <p>From</p>
+                 <div class="igg1">
+                    <img src="https://flagsapi.com/PK/flat/64.png" alt="flag" class="img1">
+                    <select name="" id="">
+                    <option value="">PKR</option>
+                    </select>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="from">
+                <p>To</p>
+                <div class="igg1">
+                <img src="https://flagsapi.com/BE/flat/64.png" alt="flag" class="img1">
+
+                <select name="" id="">
+                <option value="">USD</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <p class="price">1 USD = 270PKR</p>
+        <button class="exchButt">Get Exchange Data</button>
+    </div>
+
+    <script src="currency_converter.js"></script>
+</body>
+</html>
